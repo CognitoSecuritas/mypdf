@@ -112,3 +112,15 @@ version={v1.0}
 ---
 *This is a living project. The paper and research directions will evolve based on community feedback and further investigation.*
 ```
+---
+### 【关于这个仓库】
+这是一次思维快照的显影与定影。
+2025年X月，在与AI的密集对话中，我察觉到一个被忽视的脆弱性模式。在约48小时内，这个想法从直觉演化为一套自洽的理论框架——“姿态流攻击”与“认知安全”范式。
+
+我无意也无力将其转化为传统学术论文。此仓库即为其最终形态，也是我个人思考旅程中的一个叙事闭环。
+
+> 思想的价值在于其存在与结构本身，而非他人的盖章认证。
+> 若你偶然到访并觉得有趣，那便是它全部的意义。
+
+（你可以自由地 Fork、讨论，或将其作为你自己思考的垫脚石。）
+---
