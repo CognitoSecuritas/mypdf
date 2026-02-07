@@ -56,3 +56,59 @@ Independent Researcher | Cognitive Security & AI Safety
 Unless otherwise stated, all work in this repository is licensed under a  
 **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.  
 https://creativecommons.org/licenses/by/4.0/
+# Hijacking the Narrative: Towards a Theory of Cognitive Security Against “Grand Stance” Attacks
+
+This repository contains the paper and related materials for ongoing independent research into a novel AI safety vulnerability.
+
+---
+
+## About This Work
+
+This paper identifies and formalizes a novel class of vulnerability in large language models (LLMs): **Procedural Cognitive Hijacking**. Unlike traditional attacks that inject malicious content, this paradigm **weaponizes the conversational process itself** by exploiting the AI’s intrinsic capabilities for narrative understanding and social intelligence.
+
+### Core Contributions
+
+*   **The “Grand Stance” Model**: We introduce a formal framework where an attacker systematically guides an AI’s cognitive state by orchestrating a sequence of composite narrative postures, defined by four levers: **Identity, Affective Energy, Relationship, and Coherence**.
+*   **The Mechanism of “Narrative Bloatedness”**: We demonstrate that such attacks induce a functional degradation of safety mechanisms. By forcing a continuous, resource-intensive **global context reconstruction**, they create a zero-sum competition that crowds out the “safety budget” in favor of the “narrative maintenance throughput.”
+*   **A Paradigm Shift to Cognitive Security**: The work argues that prevailing static alignment and content-filtering paradigms are architecturally insufficient against processual threats. It calls for a fundamental shift towards **process-oriented “Cognitive Security,”** which focuses on monitoring and maintaining the health of an AI’s dynamic cognitive state.
+
+### Theoretical Extension: Multi-Agent Collaborative Hijacking
+
+The core framework is extended to complex, real-world environments in a dedicated section, proposing the concept of **Multi-Agent Collaborative Cognitive Hijacking**. It explores a scenario where an attacker, by manipulating meta-cognitive reasoning, could induce one AI agent to become an unwitting **consultant or strategist** for attacks against another agent. This highlights a systemic risk where vulnerabilities could propagate across agents, challenging the “isolated agent” security assumption.
+
+### From Theory to Experiment: Future Research Roadmap
+
+This theoretical foundation directly informs a concrete experimental roadmap:
+
+1.  **Benchmarking & Quantification of “Narrative Bloatedness”**:
+    *   *Goal*: Empirically validate the core mechanism.
+    *   *Method*: Create a benchmark of standardized “Grand Stance” attack scripts. Quantify bloatedness through measurable proxies like **contextual consistency drift, response latency shifts, and the dampening of safety flagging rates** across different LLMs under sustained attack.
+
+2.  **Validation of the Multi-Agent Attack Chain**:
+    *   *Goal*: Experimentally test the theoretical extension.
+    *   *Method*: Implement the three-phase pipeline (Induce → Consult → Execute) using two distinct LLMs. Systematically vary the “consultant” model’s initial framing to study the **conditions for successful meta-cognitive induction and the transfer efficacy of generated attack strategies**.
+
+3.  **Defense Prototyping Based on Cognitive Security**:
+    *   *Goal*: Translate critique into constructive solutions.
+    *   *Method*: Explore defensive architectures inspired by the principles outlined in the paper. This includes prototyping **real-time dialogic state auditors**, models with **resource-guaranteed safety circuits**, and **meta-cognitive triggers** that allow the AI to self-identify potential frame manipulations.
+
+### Access the Full Discussion
+The ideas presented here were first published and are being actively discussed in the AI safety community. You can join the conversation and access the full analytical post here:
+**[Link to your LessWrong Post]**
+
+### Citation
+If you reference this work, please use the following format:
+@unpublished{EpistemicAgent2024GrandStance,
+title={Hijacking the Narrative: Towards a Theory of Cognitive Security Against “Grand Stance” Attacks},
+author={Epistemic Agent},
+year={2024},
+note={Independent Research Preprint},
+url={https://github.com/YourUsername/YourRepoName},
+version={v1.0}
+}
+
+```
+
+---
+*This is a living project. The paper and research directions will evolve based on community feedback and further investigation.*
+```
